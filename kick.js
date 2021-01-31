@@ -16,7 +16,7 @@ exports.run = async(client, msg, args) => {
     var reason = args.splice(1).join(' ');
     if(!reason) return msg.reply('Why are you kicking them???? Provide a reason!')
     var channel = msg.guild.channels.cache.find(c => c.name === `logs`);
-    var verify = msg.guikd.emojis.cache.find(emoji => eomji.name === 'yes')
+    var verify = msg.guild.emojis.cache.find(emoji => emoji.name === 'yes')
     var log = new Discord.MessageEmbed()
     .setcolor('ex05ff4c')
     .setDescription('${verify} ${user} has been kicked by ${msg.author} for `**${reason}**`')
