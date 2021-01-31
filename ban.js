@@ -27,7 +27,7 @@ exports.run = async(client, msg, args) => {
 
     var userLog = new Discord.MessageEmbed()
     .setcolor('ex05ff4c')
-    .setTitle('You were kicked.')
+    .setTitle('You were banned.')
     .setDescription('You were banned in the Gaming Hangout for `**${reason}**`') 
     try {
         await user.send(userLog);
