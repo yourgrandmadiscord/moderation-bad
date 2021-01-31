@@ -1,2 +1,1 @@
-# moderation-bad
-this sucks don't use it
+THIS IS JUST FOR HELP IT DOES NOT WORK
